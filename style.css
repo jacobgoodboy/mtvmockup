@@ -1,0 +1,76 @@
+button {
+    border: solid rgb(199, 82, 143);
+    background-color: black;
+    color: white;
+}
+
+body {
+    color: yellow;
+    border: solid rgb(199, 82, 143);
+    font-size: larger;
+    background-color: black;
+}
+
+/* header */
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(199, 82, 143);
+}
+
+header {
+    border: solid rgb(199, 82, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav li {
+
+    list-style: none;
+
+}
+
+
+/*body  section1 */
+
+
+
+
+section figcaption {
+
+    text-align: center;
+}
+
+section figure {}
+
+figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+
+}
+
+img {
+    border: solid red;
+    border-radius: 1%;
+}
+
+/* footer */
+
+footer {
+    border: solid rgb(199, 82, 143);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    padding: 20px;
+
+}
